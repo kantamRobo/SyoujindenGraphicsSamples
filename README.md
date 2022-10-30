@@ -1,0 +1,2 @@
+# SyoujindenGraphicsSamples
+翔刃伝のグラフィックサンプル
