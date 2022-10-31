@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 400
-    y: 59
-    width: 958
-    height: 653
+    x: 0
+    y: 43
+    width: 1366
+    height: 677
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: GitHub
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 0
+  m_Maximized: 1
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -43,12 +43,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 958
-    height: 603
+    width: 1366
+    height: 627
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 17
+  controlID: 55
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -59,21 +59,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_Name: Window
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 731
+    x: 1042
     y: 0
-    width: 227
-    height: 603
-  m_MinSize: {x: 276, y: 71}
+    width: 324
+    height: 627
+  m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 13}
+  m_ActualView: {fileID: 12}
   m_Panes:
-  - {fileID: 13}
-  m_Selected: 0
+  - {fileID: 14}
+  - {fileID: 12}
+  m_Selected: 1
   m_LastSelected: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -92,13 +93,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 181
-    height: 357
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 14}
+    width: 258
+    height: 371
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 14}
+  - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &5
@@ -117,15 +118,15 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 357
-    width: 731
-    height: 246
+    y: 371
+    width: 1042
+    height: 256
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 12}
+  m_ActualView: {fileID: 13}
   m_Panes:
-  - {fileID: 12}
-  - {fileID: 17}
+  - {fileID: 13}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &6
@@ -148,8 +149,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 958
-    height: 653
+    width: 1366
+    height: 677
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -173,7 +174,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 958
+    width: 1366
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -194,8 +195,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 633
-    width: 958
+    y: 657
+    width: 1366
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -218,12 +219,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 731
-    height: 603
+    width: 1042
+    height: 627
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 29
+  controlID: 116
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -243,12 +244,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 731
-    height: 357
+    width: 1042
+    height: 371
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 30
+  controlID: 117
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -264,19 +265,2997 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 181
+    x: 258
     y: 0
-    width: 550
-    height: 357
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 15}
+    width: 784
+    height: 371
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 15}
   - {fileID: 16}
+  - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 363648761, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: GitHub
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1042
+    y: 73
+    width: 323
+    height: 606
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  progressMessageClearTime: 7749.771984399999
+  notificationClearTime: -1
+  timeSinceLastRotation: -1
+  currentBranchAndRemoteHasUpdate: 0
+  currentTrackingStatusHasUpdate: 0
+  currentStatusEntriesHasUpdate: 0
+  repositoryProgressHasUpdate: 0
+  appManagerProgressHasUpdate: 0
+  changeTab: 3
+  activeTab: 3
+  initProjectView:
+    hasCompletedInitialCheck: 1
+    isUserDataPresent: 1
+    lastCheckUserChangedEvent:
+      updatedTimeString: 2022-10-30T17:17:41.936+09:00
+      cacheType: 8
+  branchesView:
+    treeLocals:
+      IsRemote: 0
+      folders:
+        keys:
+        - Local branches
+        values:
+        - path: Local branches
+          label: Local branches
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: Local branches
+      pathSeparator: /
+      displayRootNode: 1
+      isSelectable: 1
+      isCheckable: 0
+      nodes:
+      - path: Local branches
+        label: Local branches
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: master
+        label: master
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 1
+        treeIsCheckable: 0
+        checkState: 0
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+    treeRemotes:
+      IsRemote: 1
+      folders:
+        keys:
+        - Remote branches
+        - origin
+        values:
+        - path: Remote branches
+          label: Remote branches
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+        - path: origin
+          label: origin
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: Remote branches
+      pathSeparator: /
+      displayRootNode: 1
+      isSelectable: 1
+      isCheckable: 0
+      nodes:
+      - path: Remote branches
+        label: Remote branches
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: origin
+        label: origin
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: origin/main
+        label: main
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: origin/master
+        label: master
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+    mode: 0
+    newBranchName: 
+    scroll: {x: 0, y: 0}
+    disableDelete: 1
+    disableCreate: 1
+    lastLocalAndRemoteBranchListChangedEvent:
+      updatedTimeString: 2022-10-30T18:46:57.055+09:00
+      cacheType: 2
+    lastCurrentBranchAndRemoteChange:
+      updatedTimeString: 2022-10-30T18:46:57.046+09:00
+      cacheType: 1
+    currentBranch:
+      name: master
+      tracking: origin/master
+    currentRemote:
+      name: origin
+      url: https://github.com/kantamRobo/SyoujindenGraphicsSamples.git
+      login: 
+      user: 
+      host: 
+      function: 0
+      token: 
+    localBranches:
+    - name: master
+      tracking: origin/master
+    remoteBranches:
+    - name: origin/main
+      tracking: '[None]'
+    - name: origin/master
+      tracking: '[None]'
+  changesView:
+    currentBranchHasUpdate: 0
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
+    commitBody: '
+
+'
+    commitMessage: wakame
+    currentBranch: '[master]'
+    treeScroll: {x: 0, y: 0}
+    treeChanges:
+      assets:
+        keys: []
+        values: []
+      folders:
+        keys: []
+        values: []
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: 
+      pathSeparator: \
+      displayRootNode: 0
+      isSelectable: 1
+      isCheckable: 1
+      isUsingGlobalSelection: 1
+      nodes:
+      - path: 
+        label: 
+        level: -1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+    gitStatusEntries: []
+    changedFilesText: No changed files
+    lastCurrentBranchChangedEvent:
+      updatedTimeString: 2022-10-30T19:17:00.095+09:00
+      cacheType: 1
+    lastStatusEntriesChangedEvent:
+      updatedTimeString: 2022-10-30T19:17:05.733+09:00
+      cacheType: 6
+    lastLocksChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 7
+  historyView:
+    currentLogHasUpdate: 0
+    currentTrackingStatusHasUpdate: 0
+    logEntries:
+    - commitID: 3b646463b7aec47fb263dda857bbf77c3e4275fc
+      mergeA: 
+      mergeB: 
+      authorName: anazi6j
+      authorEmail: hattendosummer@yahoo.co.jp
+      commitEmail: hattendosummer@yahoo.co.jp
+      commitName: anazi6j
+      summary: Initial commit
+      description: 
+      timeString: 2022-10-30T17:17:46.000+09:00
+      commitTimeString: 2022-10-30T17:17:46.000+09:00
+      changes:
+      - path: .gitattributes
+        fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\.gitattributes
+        projectPath: .gitattributes
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: .gitignore
+        fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\.gitignore
+        projectPath: .gitignore
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\.gitignore
+        fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\.gitignore
+        projectPath: Assets\.gitignore
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    statusAhead: 0
+    lastLogChangedEvent:
+      updatedTimeString: 2022-10-30T18:43:09.630+09:00
+      cacheType: 3
+    lastTrackingStatusChangedEvent:
+      updatedTimeString: 2022-10-30T18:43:46.500+09:00
+      cacheType: 5
+    historyControl:
+      scroll: {x: 0, y: 0}
+      entries:
+      - commitID: 3b646463b7aec47fb263dda857bbf77c3e4275fc
+        mergeA: 
+        mergeB: 
+        authorName: anazi6j
+        authorEmail: hattendosummer@yahoo.co.jp
+        commitEmail: hattendosummer@yahoo.co.jp
+        commitName: anazi6j
+        summary: Initial commit
+        description: 
+        timeString: 2022-10-30T17:17:46.000+09:00
+        commitTimeString: 2022-10-30T17:17:46.000+09:00
+        changes:
+        - path: .gitattributes
+          fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\.gitattributes
+          projectPath: .gitattributes
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: .gitignore
+          fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\.gitignore
+          projectPath: .gitignore
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\.gitignore
+          fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\.gitignore
+          projectPath: Assets\.gitignore
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      statusAhead: 0
+      selectedIndex: -1
+    selectedEntry:
+      commitID: 
+      mergeA: 
+      mergeB: 
+      authorName: 
+      authorEmail: 
+      commitEmail: 
+      commitName: 
+      summary: 
+      description: 
+      timeString: 0001-01-01T00:00:00.000+00:00
+      commitTimeString: 0001-01-01T00:00:00.000+00:00
+      changes: []
+    treeChanges:
+      assets:
+        keys: []
+        values: []
+      folders:
+        keys: []
+        values: []
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: 
+      pathSeparator: /
+      displayRootNode: 0
+      isSelectable: 1
+      isCheckable: 0
+      isUsingGlobalSelection: 0
+      nodes: []
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+    detailsScroll: {x: 0, y: 0}
+  settingsView:
+    gitPathView:
+      gitPath: C:\Program Files\Git\cmd\git.exe
+      gitLfsPath: C:\Users\hatte\AppData\Local\GitHubUnity\git-lfs\git-lfs.exe
+      errorMessage: 
+      resetToBundled: 0
+      resetToSystem: 0
+      changingManually: 0
+    hasRemote: 1
+    lastCurrentRemoteChangedEvent:
+      updatedTimeString: 2022-10-30T18:46:57.046+09:00
+      cacheType: 1
+    metricsEnabled: 1
+    newRepositoryRemoteUrl: https://github.com/kantamRobo/SyoujindenGraphicsSamples.git
+    repositoryRemoteName: origin
+    repositoryRemoteUrl: https://github.com/kantamRobo/SyoujindenGraphicsSamples.git
+    scroll: {x: 0, y: 0}
+    userSettingsView:
+      gitName: anazi6j
+      gitEmail: hattendosummer@yahoo.co.jp
+      newGitName: anazi6j
+      newGitEmail: hattendosummer@yahoo.co.jp
+      needsSaving: 0
+      lastCheckUserChangedEvent:
+        updatedTimeString: 2022-10-30T18:43:12.347+09:00
+        cacheType: 8
+    webTimeout: 3000
+    gitTimeout: 5000
+  locksView:
+    currentRemoteHasUpdate: 0
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
+    keychainHasUpdate: 0
+    locksControl:
+      scroll: {x: 0, y: 0}
+      gitLockEntries: []
+      assets:
+        keys: []
+        values: []
+      gitStatusDictionary:
+        keys: []
+        values: []
+      selectedEntry:
+        gitLock:
+          id: 
+          path: 
+          owner:
+            name: 
+            email: 
+          lockedAtString: 
+        gitFileStatus: 0
+        lockedAt: 1 1 0001, 09:00
+    lastCurrentRemoteChangedEvent:
+      updatedTimeString: 2022-10-30T18:46:57.046+09:00
+      cacheType: 1
+    lastLocksChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 7
+    lastStatusEntriesChangedEvent:
+      updatedTimeString: 2022-10-30T18:49:33.230+09:00
+      cacheType: 6
+    lockedFiles: []
+    gitStatusEntries:
+    - path: .vsconfig
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\.vsconfig
+      projectPath: .vsconfig
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\material.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\material.meta
+      projectPath: Assets\material.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\material\runningmaterial.mat
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\material\runningmaterial.mat
+      projectPath: Assets\material\runningmaterial.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\material\runningmaterial.mat.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\material\runningmaterial.mat.meta
+      projectPath: Assets\material\runningmaterial.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins.meta
+      projectPath: Assets\Plugins.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub.meta
+      projectPath: Assets\Plugins\GitHub.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor.meta
+      projectPath: Assets\Plugins\GitHub\Editor.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\credits.txt
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\eula.txt
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\libsfw.so
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\x64.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\x64.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\x86.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\x86.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Readme.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Readme.asset
+      projectPath: Assets\Readme.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Readme.asset.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Readme.asset.meta
+      projectPath: Assets\Readme.asset.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Scenes.meta
+      projectPath: Assets\Scenes.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes\ParticleSystemforMovinbgtest.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Scenes\ParticleSystemforMovinbgtest.meta
+      projectPath: Assets\Scenes\ParticleSystemforMovinbgtest.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes\ParticleSystemforMovinbgtest.unity
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Scenes\ParticleSystemforMovinbgtest.unity
+      projectPath: Assets\Scenes\ParticleSystemforMovinbgtest.unity
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes\ParticleSystemforMovinbgtest.unity.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Scenes\ParticleSystemforMovinbgtest.unity.meta
+      projectPath: Assets\Scenes\ParticleSystemforMovinbgtest.unity.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes\ParticleSystemforMovinbgtest\running_particlesystem Profile.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Scenes\ParticleSystemforMovinbgtest\running_particlesystem
+        Profile.asset
+      projectPath: Assets\Scenes\ParticleSystemforMovinbgtest\running_particlesystem
+        Profile.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes\ParticleSystemforMovinbgtest\running_particlesystem Profile.asset.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Scenes\ParticleSystemforMovinbgtest\running_particlesystem
+        Profile.asset.meta
+      projectPath: Assets\Scenes\ParticleSystemforMovinbgtest\running_particlesystem
+        Profile.asset.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes\SampleScene.unity.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Scenes\SampleScene.unity.meta
+      projectPath: Assets\Scenes\SampleScene.unity.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scripts.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Scripts.meta
+      projectPath: Assets\Scripts.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scripts\Particlesystemformoving.cs
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Scripts\Particlesystemformoving.cs
+      projectPath: Assets\Scripts\Particlesystemformoving.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scripts\Particlesystemformoving.cs.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Scripts\Particlesystemformoving.cs.meta
+      projectPath: Assets\Scripts\Particlesystemformoving.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Settings.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Settings.meta
+      projectPath: Assets\Settings.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Settings\SampleSceneProfile.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Settings\SampleSceneProfile.asset
+      projectPath: Assets\Settings\SampleSceneProfile.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Settings\SampleSceneProfile.asset.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Settings\SampleSceneProfile.asset.meta
+      projectPath: Assets\Settings\SampleSceneProfile.asset.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Settings\URP-Balanced.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Settings\URP-Balanced.asset
+      projectPath: Assets\Settings\URP-Balanced.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Settings\URP-Balanced.asset.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Settings\URP-Balanced.asset.meta
+      projectPath: Assets\Settings\URP-Balanced.asset.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Settings\URP-Balanced-Renderer.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Settings\URP-Balanced-Renderer.asset
+      projectPath: Assets\Settings\URP-Balanced-Renderer.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Settings\URP-Balanced-Renderer.asset.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Settings\URP-Balanced-Renderer.asset.meta
+      projectPath: Assets\Settings\URP-Balanced-Renderer.asset.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Settings\URP-HighFidelity.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Settings\URP-HighFidelity.asset
+      projectPath: Assets\Settings\URP-HighFidelity.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Settings\URP-HighFidelity.asset.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Settings\URP-HighFidelity.asset.meta
+      projectPath: Assets\Settings\URP-HighFidelity.asset.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Settings\URP-HighFidelity-Renderer.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Settings\URP-HighFidelity-Renderer.asset
+      projectPath: Assets\Settings\URP-HighFidelity-Renderer.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Settings\URP-HighFidelity-Renderer.asset.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Settings\URP-HighFidelity-Renderer.asset.meta
+      projectPath: Assets\Settings\URP-HighFidelity-Renderer.asset.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Settings\URP-Performant.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Settings\URP-Performant.asset
+      projectPath: Assets\Settings\URP-Performant.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Settings\URP-Performant.asset.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Settings\URP-Performant.asset.meta
+      projectPath: Assets\Settings\URP-Performant.asset.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Settings\URP-Performant-Renderer.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Settings\URP-Performant-Renderer.asset
+      projectPath: Assets\Settings\URP-Performant-Renderer.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Settings\URP-Performant-Renderer.asset.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\Settings\URP-Performant-Renderer.asset.meta
+      projectPath: Assets\Settings\URP-Performant-Renderer.asset.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets.meta
+      projectPath: Assets\StarterAssets.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Editor.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Editor.meta
+      projectPath: Assets\StarterAssets\Editor.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Editor\PackageChecker.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Editor\PackageChecker.meta
+      projectPath: Assets\StarterAssets\Editor\PackageChecker.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Editor\PackageChecker\PackageCheckerSettings.json
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Editor\PackageChecker\PackageCheckerSettings.json
+      projectPath: Assets\StarterAssets\Editor\PackageChecker\PackageCheckerSettings.json
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Editor\PackageChecker\PackageCheckerSettings.json.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Editor\PackageChecker\PackageCheckerSettings.json.meta
+      projectPath: Assets\StarterAssets\Editor\PackageChecker\PackageCheckerSettings.json.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Editor\PackageChecker\StarterAssetsPackageChecker.dll
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Editor\PackageChecker\StarterAssetsPackageChecker.dll
+      projectPath: Assets\StarterAssets\Editor\PackageChecker\StarterAssetsPackageChecker.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Editor\PackageChecker\StarterAssetsPackageChecker.dll.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Editor\PackageChecker\StarterAssetsPackageChecker.dll.meta
+      projectPath: Assets\StarterAssets\Editor\PackageChecker\StarterAssetsPackageChecker.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Editor\StarterAssetsDeployMenu.cs
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Editor\StarterAssetsDeployMenu.cs
+      projectPath: Assets\StarterAssets\Editor\StarterAssetsDeployMenu.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Editor\StarterAssetsDeployMenu.cs.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Editor\StarterAssetsDeployMenu.cs.meta
+      projectPath: Assets\StarterAssets\Editor\StarterAssetsDeployMenu.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Editor\ThirdPersonStarterAssetsDeployMenu.cs
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Editor\ThirdPersonStarterAssetsDeployMenu.cs
+      projectPath: Assets\StarterAssets\Editor\ThirdPersonStarterAssetsDeployMenu.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Editor\ThirdPersonStarterAssetsDeployMenu.cs.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Editor\ThirdPersonStarterAssetsDeployMenu.cs.meta
+      projectPath: Assets\StarterAssets\Editor\ThirdPersonStarterAssetsDeployMenu.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment.meta
+      projectPath: Assets\StarterAssets\Environment.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art.meta
+      projectPath: Assets\StarterAssets\Environment\Art.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Materials.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Materials.meta
+      projectPath: Assets\StarterAssets\Environment\Art\Materials.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Materials\Blue_Mat.mat
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Materials\Blue_Mat.mat
+      projectPath: Assets\StarterAssets\Environment\Art\Materials\Blue_Mat.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Materials\Blue_Mat.mat.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Materials\Blue_Mat.mat.meta
+      projectPath: Assets\StarterAssets\Environment\Art\Materials\Blue_Mat.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Materials\Built-in_RP.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Materials\Built-in_RP.meta
+      projectPath: Assets\StarterAssets\Environment\Art\Materials\Built-in_RP.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Materials\Built-in_RP\BuiltInTriplanar_01_Mat.mat
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Materials\Built-in_RP\BuiltInTriplanar_01_Mat.mat
+      projectPath: Assets\StarterAssets\Environment\Art\Materials\Built-in_RP\BuiltInTriplanar_01_Mat.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Materials\Built-in_RP\BuiltInTriplanar_01_Mat.mat.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Materials\Built-in_RP\BuiltInTriplanar_01_Mat.mat.meta
+      projectPath: Assets\StarterAssets\Environment\Art\Materials\Built-in_RP\BuiltInTriplanar_01_Mat.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Materials\GreyBlue_Mat.mat
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Materials\GreyBlue_Mat.mat
+      projectPath: Assets\StarterAssets\Environment\Art\Materials\GreyBlue_Mat.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Materials\GreyBlue_Mat.mat.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Materials\GreyBlue_Mat.mat.meta
+      projectPath: Assets\StarterAssets\Environment\Art\Materials\GreyBlue_Mat.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Materials\GridBlue_01_Mat.mat
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Materials\GridBlue_01_Mat.mat
+      projectPath: Assets\StarterAssets\Environment\Art\Materials\GridBlue_01_Mat.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Materials\GridBlue_01_Mat.mat.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Materials\GridBlue_01_Mat.mat.meta
+      projectPath: Assets\StarterAssets\Environment\Art\Materials\GridBlue_01_Mat.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Materials\GridOrange_01_Mat.mat
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Materials\GridOrange_01_Mat.mat
+      projectPath: Assets\StarterAssets\Environment\Art\Materials\GridOrange_01_Mat.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Materials\GridOrange_01_Mat.mat.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Materials\GridOrange_01_Mat.mat.meta
+      projectPath: Assets\StarterAssets\Environment\Art\Materials\GridOrange_01_Mat.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Materials\GridWhite_01_Mat.mat
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Materials\GridWhite_01_Mat.mat
+      projectPath: Assets\StarterAssets\Environment\Art\Materials\GridWhite_01_Mat.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Materials\GridWhite_01_Mat.mat.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Materials\GridWhite_01_Mat.mat.meta
+      projectPath: Assets\StarterAssets\Environment\Art\Materials\GridWhite_01_Mat.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Materials\URP_HDRP_ShaderGraph.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Materials\URP_HDRP_ShaderGraph.meta
+      projectPath: Assets\StarterAssets\Environment\Art\Materials\URP_HDRP_ShaderGraph.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Materials\URP_HDRP_ShaderGraph\ShaderGraphGrid_01_Mat.mat
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Materials\URP_HDRP_ShaderGraph\ShaderGraphGrid_01_Mat.mat
+      projectPath: Assets\StarterAssets\Environment\Art\Materials\URP_HDRP_ShaderGraph\ShaderGraphGrid_01_Mat.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Materials\URP_HDRP_ShaderGraph\ShaderGraphGrid_01_Mat.mat.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Materials\URP_HDRP_ShaderGraph\ShaderGraphGrid_01_Mat.mat.meta
+      projectPath: Assets\StarterAssets\Environment\Art\Materials\URP_HDRP_ShaderGraph\ShaderGraphGrid_01_Mat.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Models.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Models.meta
+      projectPath: Assets\StarterAssets\Environment\Art\Models.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Models\Box_350x250x200_Mesh.fbx
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Models\Box_350x250x200_Mesh.fbx
+      projectPath: Assets\StarterAssets\Environment\Art\Models\Box_350x250x200_Mesh.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Models\Box_350x250x200_Mesh.fbx.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Models\Box_350x250x200_Mesh.fbx.meta
+      projectPath: Assets\StarterAssets\Environment\Art\Models\Box_350x250x200_Mesh.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Models\Box_350x250x300_Mesh.fbx
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Models\Box_350x250x300_Mesh.fbx
+      projectPath: Assets\StarterAssets\Environment\Art\Models\Box_350x250x300_Mesh.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Models\Box_350x250x300_Mesh.fbx.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Models\Box_350x250x300_Mesh.fbx.meta
+      projectPath: Assets\StarterAssets\Environment\Art\Models\Box_350x250x300_Mesh.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Models\Ground_Mesh.fbx
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Models\Ground_Mesh.fbx
+      projectPath: Assets\StarterAssets\Environment\Art\Models\Ground_Mesh.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Models\Ground_Mesh.fbx.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Models\Ground_Mesh.fbx.meta
+      projectPath: Assets\StarterAssets\Environment\Art\Models\Ground_Mesh.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Models\Ramp_100x100x200_Mesh.fbx
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Models\Ramp_100x100x200_Mesh.fbx
+      projectPath: Assets\StarterAssets\Environment\Art\Models\Ramp_100x100x200_Mesh.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Models\Ramp_100x100x200_Mesh.fbx.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Models\Ramp_100x100x200_Mesh.fbx.meta
+      projectPath: Assets\StarterAssets\Environment\Art\Models\Ramp_100x100x200_Mesh.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Models\Ramp_Mesh.fbx
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Models\Ramp_Mesh.fbx
+      projectPath: Assets\StarterAssets\Environment\Art\Models\Ramp_Mesh.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Models\Ramp_Mesh.fbx.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Models\Ramp_Mesh.fbx.meta
+      projectPath: Assets\StarterAssets\Environment\Art\Models\Ramp_Mesh.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Models\Stairs_200x100x200_Mesh.fbx
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Models\Stairs_200x100x200_Mesh.fbx
+      projectPath: Assets\StarterAssets\Environment\Art\Models\Stairs_200x100x200_Mesh.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Models\Stairs_200x100x200_Mesh.fbx.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Models\Stairs_200x100x200_Mesh.fbx.meta
+      projectPath: Assets\StarterAssets\Environment\Art\Models\Stairs_200x100x200_Mesh.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Models\Stairs_650_400_300_Mesh.fbx
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Models\Stairs_650_400_300_Mesh.fbx
+      projectPath: Assets\StarterAssets\Environment\Art\Models\Stairs_650_400_300_Mesh.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Models\Stairs_650_400_300_Mesh.fbx.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Models\Stairs_650_400_300_Mesh.fbx.meta
+      projectPath: Assets\StarterAssets\Environment\Art\Models\Stairs_650_400_300_Mesh.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Models\Structure_Mesh.fbx
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Models\Structure_Mesh.fbx
+      projectPath: Assets\StarterAssets\Environment\Art\Models\Structure_Mesh.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Models\Structure_Mesh.fbx.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Models\Structure_Mesh.fbx.meta
+      projectPath: Assets\StarterAssets\Environment\Art\Models\Structure_Mesh.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Models\Tunnel_Mesh.fbx
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Models\Tunnel_Mesh.fbx
+      projectPath: Assets\StarterAssets\Environment\Art\Models\Tunnel_Mesh.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Models\Tunnel_Mesh.fbx.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Models\Tunnel_Mesh.fbx.meta
+      projectPath: Assets\StarterAssets\Environment\Art\Models\Tunnel_Mesh.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Models\Wall_Mesh.fbx
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Models\Wall_Mesh.fbx
+      projectPath: Assets\StarterAssets\Environment\Art\Models\Wall_Mesh.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Models\Wall_Mesh.fbx.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Models\Wall_Mesh.fbx.meta
+      projectPath: Assets\StarterAssets\Environment\Art\Models\Wall_Mesh.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Skybox.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Skybox.meta
+      projectPath: Assets\StarterAssets\Environment\Art\Skybox.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Skybox\SkyboxLite.mat
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Skybox\SkyboxLite.mat
+      projectPath: Assets\StarterAssets\Environment\Art\Skybox\SkyboxLite.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Skybox\SkyboxLite.mat.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Skybox\SkyboxLite.mat.meta
+      projectPath: Assets\StarterAssets\Environment\Art\Skybox\SkyboxLite.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Skybox\SkyboxLiteWarm.mat
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Skybox\SkyboxLiteWarm.mat
+      projectPath: Assets\StarterAssets\Environment\Art\Skybox\SkyboxLiteWarm.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Skybox\SkyboxLiteWarm.mat.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Skybox\SkyboxLiteWarm.mat.meta
+      projectPath: Assets\StarterAssets\Environment\Art\Skybox\SkyboxLiteWarm.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Textures.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Textures.meta
+      projectPath: Assets\StarterAssets\Environment\Art\Textures.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Textures\Grid_01_BaseMap.png
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Textures\Grid_01_BaseMap.png
+      projectPath: Assets\StarterAssets\Environment\Art\Textures\Grid_01_BaseMap.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Textures\Grid_01_BaseMap.png.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Textures\Grid_01_BaseMap.png.meta
+      projectPath: Assets\StarterAssets\Environment\Art\Textures\Grid_01_BaseMap.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Textures\Grid_01_Emissive.png
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Textures\Grid_01_Emissive.png
+      projectPath: Assets\StarterAssets\Environment\Art\Textures\Grid_01_Emissive.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Textures\Grid_01_Emissive.png.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Textures\Grid_01_Emissive.png.meta
+      projectPath: Assets\StarterAssets\Environment\Art\Textures\Grid_01_Emissive.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Textures\Grid_01_Normal.png
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Textures\Grid_01_Normal.png
+      projectPath: Assets\StarterAssets\Environment\Art\Textures\Grid_01_Normal.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Textures\Grid_01_Normal.png.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Textures\Grid_01_Normal.png.meta
+      projectPath: Assets\StarterAssets\Environment\Art\Textures\Grid_01_Normal.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Textures\Grid_02_BaseMap.png
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Textures\Grid_02_BaseMap.png
+      projectPath: Assets\StarterAssets\Environment\Art\Textures\Grid_02_BaseMap.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Art\Textures\Grid_02_BaseMap.png.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Art\Textures\Grid_02_BaseMap.png.meta
+      projectPath: Assets\StarterAssets\Environment\Art\Textures\Grid_02_BaseMap.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Prefabs.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Prefabs.meta
+      projectPath: Assets\StarterAssets\Environment\Prefabs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Prefabs\Box_100x100x100_Prefab.prefab
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Prefabs\Box_100x100x100_Prefab.prefab
+      projectPath: Assets\StarterAssets\Environment\Prefabs\Box_100x100x100_Prefab.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Prefabs\Box_100x100x100_Prefab.prefab.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Prefabs\Box_100x100x100_Prefab.prefab.meta
+      projectPath: Assets\StarterAssets\Environment\Prefabs\Box_100x100x100_Prefab.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Prefabs\Box_350x250x200_Prefab.prefab
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Prefabs\Box_350x250x200_Prefab.prefab
+      projectPath: Assets\StarterAssets\Environment\Prefabs\Box_350x250x200_Prefab.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Prefabs\Box_350x250x200_Prefab.prefab.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Prefabs\Box_350x250x200_Prefab.prefab.meta
+      projectPath: Assets\StarterAssets\Environment\Prefabs\Box_350x250x200_Prefab.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Prefabs\Box_350x250x300_Prefab.prefab
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Prefabs\Box_350x250x300_Prefab.prefab
+      projectPath: Assets\StarterAssets\Environment\Prefabs\Box_350x250x300_Prefab.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Prefabs\Box_350x250x300_Prefab.prefab.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Prefabs\Box_350x250x300_Prefab.prefab.meta
+      projectPath: Assets\StarterAssets\Environment\Prefabs\Box_350x250x300_Prefab.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Prefabs\Environment_Prefab.prefab
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Prefabs\Environment_Prefab.prefab
+      projectPath: Assets\StarterAssets\Environment\Prefabs\Environment_Prefab.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Prefabs\Environment_Prefab.prefab.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Prefabs\Environment_Prefab.prefab.meta
+      projectPath: Assets\StarterAssets\Environment\Prefabs\Environment_Prefab.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Prefabs\Ramp_Prefab.prefab
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Prefabs\Ramp_Prefab.prefab
+      projectPath: Assets\StarterAssets\Environment\Prefabs\Ramp_Prefab.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Prefabs\Ramp_Prefab.prefab.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Prefabs\Ramp_Prefab.prefab.meta
+      projectPath: Assets\StarterAssets\Environment\Prefabs\Ramp_Prefab.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Prefabs\Stairs_200x100x200_Prefab.prefab
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Prefabs\Stairs_200x100x200_Prefab.prefab
+      projectPath: Assets\StarterAssets\Environment\Prefabs\Stairs_200x100x200_Prefab.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Prefabs\Stairs_200x100x200_Prefab.prefab.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Prefabs\Stairs_200x100x200_Prefab.prefab.meta
+      projectPath: Assets\StarterAssets\Environment\Prefabs\Stairs_200x100x200_Prefab.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Prefabs\Stairs_650_400_300_Prefab.prefab
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Prefabs\Stairs_650_400_300_Prefab.prefab
+      projectPath: Assets\StarterAssets\Environment\Prefabs\Stairs_650_400_300_Prefab.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Prefabs\Stairs_650_400_300_Prefab.prefab.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Prefabs\Stairs_650_400_300_Prefab.prefab.meta
+      projectPath: Assets\StarterAssets\Environment\Prefabs\Stairs_650_400_300_Prefab.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Prefabs\Structure_Prefab.prefab
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Prefabs\Structure_Prefab.prefab
+      projectPath: Assets\StarterAssets\Environment\Prefabs\Structure_Prefab.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Prefabs\Structure_Prefab.prefab.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Prefabs\Structure_Prefab.prefab.meta
+      projectPath: Assets\StarterAssets\Environment\Prefabs\Structure_Prefab.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Prefabs\Tunnel_Prefab.prefab
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Prefabs\Tunnel_Prefab.prefab
+      projectPath: Assets\StarterAssets\Environment\Prefabs\Tunnel_Prefab.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Prefabs\Tunnel_Prefab.prefab.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Prefabs\Tunnel_Prefab.prefab.meta
+      projectPath: Assets\StarterAssets\Environment\Prefabs\Tunnel_Prefab.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Prefabs\Wall_Prefab.prefab
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Prefabs\Wall_Prefab.prefab
+      projectPath: Assets\StarterAssets\Environment\Prefabs\Wall_Prefab.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Prefabs\Wall_Prefab.prefab.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Prefabs\Wall_Prefab.prefab.meta
+      projectPath: Assets\StarterAssets\Environment\Prefabs\Wall_Prefab.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\RenderPipelineProfiles.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\RenderPipelineProfiles.meta
+      projectPath: Assets\StarterAssets\Environment\RenderPipelineProfiles.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\RenderPipelineProfiles\StarterAssetsHDRPVolumeProfile.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\RenderPipelineProfiles\StarterAssetsHDRPVolumeProfile.asset
+      projectPath: Assets\StarterAssets\Environment\RenderPipelineProfiles\StarterAssetsHDRPVolumeProfile.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\RenderPipelineProfiles\StarterAssetsHDRPVolumeProfile.asset.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\RenderPipelineProfiles\StarterAssetsHDRPVolumeProfile.asset.meta
+      projectPath: Assets\StarterAssets\Environment\RenderPipelineProfiles\StarterAssetsHDRPVolumeProfile.asset.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Shaders.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Shaders.meta
+      projectPath: Assets\StarterAssets\Environment\Shaders.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Shaders\Built-in_RP.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Shaders\Built-in_RP.meta
+      projectPath: Assets\StarterAssets\Environment\Shaders\Built-in_RP.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Shaders\Built-in_RP\ArmatureShader.shader
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Shaders\Built-in_RP\ArmatureShader.shader
+      projectPath: Assets\StarterAssets\Environment\Shaders\Built-in_RP\ArmatureShader.shader
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Shaders\Built-in_RP\ArmatureShader.shader.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Shaders\Built-in_RP\ArmatureShader.shader.meta
+      projectPath: Assets\StarterAssets\Environment\Shaders\Built-in_RP\ArmatureShader.shader.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Shaders\Built-in_RP\Triplanar.shader
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Shaders\Built-in_RP\Triplanar.shader
+      projectPath: Assets\StarterAssets\Environment\Shaders\Built-in_RP\Triplanar.shader
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Shaders\Built-in_RP\Triplanar.shader.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Shaders\Built-in_RP\Triplanar.shader.meta
+      projectPath: Assets\StarterAssets\Environment\Shaders\Built-in_RP\Triplanar.shader.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Shaders\URP_HDRP_ShaderGraph.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Shaders\URP_HDRP_ShaderGraph.meta
+      projectPath: Assets\StarterAssets\Environment\Shaders\URP_HDRP_ShaderGraph.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Shaders\URP_HDRP_ShaderGraph\UrpTriplanar.shadergraph
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Shaders\URP_HDRP_ShaderGraph\UrpTriplanar.shadergraph
+      projectPath: Assets\StarterAssets\Environment\Shaders\URP_HDRP_ShaderGraph\UrpTriplanar.shadergraph
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Environment\Shaders\URP_HDRP_ShaderGraph\UrpTriplanar.shadergraph.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Environment\Shaders\URP_HDRP_ShaderGraph\UrpTriplanar.shadergraph.meta
+      projectPath: Assets\StarterAssets\Environment\Shaders\URP_HDRP_ShaderGraph\UrpTriplanar.shadergraph.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\InputSystem.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\InputSystem.meta
+      projectPath: Assets\StarterAssets\InputSystem.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\InputSystem\StarterAssets.inputactions
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\InputSystem\StarterAssets.inputactions
+      projectPath: Assets\StarterAssets\InputSystem\StarterAssets.inputactions
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\InputSystem\StarterAssets.inputactions.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\InputSystem\StarterAssets.inputactions.meta
+      projectPath: Assets\StarterAssets\InputSystem\StarterAssets.inputactions.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\InputSystem\StarterAssets.inputsettings.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\InputSystem\StarterAssets.inputsettings.asset
+      projectPath: Assets\StarterAssets\InputSystem\StarterAssets.inputsettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\InputSystem\StarterAssets.inputsettings.asset.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\InputSystem\StarterAssets.inputsettings.asset.meta
+      projectPath: Assets\StarterAssets\InputSystem\StarterAssets.inputsettings.asset.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\InputSystem\StarterAssetsInputs.cs
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\InputSystem\StarterAssetsInputs.cs
+      projectPath: Assets\StarterAssets\InputSystem\StarterAssetsInputs.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\InputSystem\StarterAssetsInputs.cs.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\InputSystem\StarterAssetsInputs.cs.meta
+      projectPath: Assets\StarterAssets\InputSystem\StarterAssetsInputs.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\license.txt
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\license.txt
+      projectPath: Assets\StarterAssets\license.txt
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\license.txt.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\license.txt.meta
+      projectPath: Assets\StarterAssets\license.txt.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile.meta
+      projectPath: Assets\StarterAssets\Mobile.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\Prefabs.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\Prefabs.meta
+      projectPath: Assets\StarterAssets\Mobile\Prefabs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\Prefabs\CanvasInputs.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\Prefabs\CanvasInputs.meta
+      projectPath: Assets\StarterAssets\Mobile\Prefabs\CanvasInputs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\Prefabs\CanvasInputs\UI_Canvas_StarterAssetsInputs_Joysticks.prefab
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\Prefabs\CanvasInputs\UI_Canvas_StarterAssetsInputs_Joysticks.prefab
+      projectPath: Assets\StarterAssets\Mobile\Prefabs\CanvasInputs\UI_Canvas_StarterAssetsInputs_Joysticks.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\Prefabs\CanvasInputs\UI_Canvas_StarterAssetsInputs_Joysticks.prefab.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\Prefabs\CanvasInputs\UI_Canvas_StarterAssetsInputs_Joysticks.prefab.meta
+      projectPath: Assets\StarterAssets\Mobile\Prefabs\CanvasInputs\UI_Canvas_StarterAssetsInputs_Joysticks.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\Prefabs\CanvasInputs\UI_Canvas_StarterAssetsInputs_TouchZones.prefab
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\Prefabs\CanvasInputs\UI_Canvas_StarterAssetsInputs_TouchZones.prefab
+      projectPath: Assets\StarterAssets\Mobile\Prefabs\CanvasInputs\UI_Canvas_StarterAssetsInputs_TouchZones.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\Prefabs\CanvasInputs\UI_Canvas_StarterAssetsInputs_TouchZones.prefab.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\Prefabs\CanvasInputs\UI_Canvas_StarterAssetsInputs_TouchZones.prefab.meta
+      projectPath: Assets\StarterAssets\Mobile\Prefabs\CanvasInputs\UI_Canvas_StarterAssetsInputs_TouchZones.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\Prefabs\EventSystem.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\Prefabs\EventSystem.meta
+      projectPath: Assets\StarterAssets\Mobile\Prefabs\EventSystem.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\Prefabs\EventSystem\UI_EventSystem.prefab
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\Prefabs\EventSystem\UI_EventSystem.prefab
+      projectPath: Assets\StarterAssets\Mobile\Prefabs\EventSystem\UI_EventSystem.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\Prefabs\EventSystem\UI_EventSystem.prefab.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\Prefabs\EventSystem\UI_EventSystem.prefab.meta
+      projectPath: Assets\StarterAssets\Mobile\Prefabs\EventSystem\UI_EventSystem.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\Prefabs\VirtualInputs.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\Prefabs\VirtualInputs.meta
+      projectPath: Assets\StarterAssets\Mobile\Prefabs\VirtualInputs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\Prefabs\VirtualInputs\UI_Virtual_Button.prefab
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\Prefabs\VirtualInputs\UI_Virtual_Button.prefab
+      projectPath: Assets\StarterAssets\Mobile\Prefabs\VirtualInputs\UI_Virtual_Button.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\Prefabs\VirtualInputs\UI_Virtual_Button.prefab.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\Prefabs\VirtualInputs\UI_Virtual_Button.prefab.meta
+      projectPath: Assets\StarterAssets\Mobile\Prefabs\VirtualInputs\UI_Virtual_Button.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\Prefabs\VirtualInputs\UI_Virtual_Joystick.prefab
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\Prefabs\VirtualInputs\UI_Virtual_Joystick.prefab
+      projectPath: Assets\StarterAssets\Mobile\Prefabs\VirtualInputs\UI_Virtual_Joystick.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\Prefabs\VirtualInputs\UI_Virtual_Joystick.prefab.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\Prefabs\VirtualInputs\UI_Virtual_Joystick.prefab.meta
+      projectPath: Assets\StarterAssets\Mobile\Prefabs\VirtualInputs\UI_Virtual_Joystick.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\Prefabs\VirtualInputs\UI_Virtual_TouchZone.prefab
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\Prefabs\VirtualInputs\UI_Virtual_TouchZone.prefab
+      projectPath: Assets\StarterAssets\Mobile\Prefabs\VirtualInputs\UI_Virtual_TouchZone.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\Prefabs\VirtualInputs\UI_Virtual_TouchZone.prefab.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\Prefabs\VirtualInputs\UI_Virtual_TouchZone.prefab.meta
+      projectPath: Assets\StarterAssets\Mobile\Prefabs\VirtualInputs\UI_Virtual_TouchZone.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\Scripts.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\Scripts.meta
+      projectPath: Assets\StarterAssets\Mobile\Scripts.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\Scripts\CanvasInputs.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\Scripts\CanvasInputs.meta
+      projectPath: Assets\StarterAssets\Mobile\Scripts\CanvasInputs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs
+      projectPath: Assets\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs.meta
+      projectPath: Assets\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\Scripts\Utilities.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\Scripts\Utilities.meta
+      projectPath: Assets\StarterAssets\Mobile\Scripts\Utilities.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs
+      projectPath: Assets\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs.meta
+      projectPath: Assets\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\Scripts\VirtualInputs.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\Scripts\VirtualInputs.meta
+      projectPath: Assets\StarterAssets\Mobile\Scripts\VirtualInputs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs
+      projectPath: Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs.meta
+      projectPath: Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs
+      projectPath: Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs.meta
+      projectPath: Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualTouchZone.cs
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualTouchZone.cs
+      projectPath: Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualTouchZone.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualTouchZone.cs.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualTouchZone.cs.meta
+      projectPath: Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualTouchZone.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\UI.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\UI.meta
+      projectPath: Assets\StarterAssets\Mobile\UI.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\UI\UI_Circle_Bevel_Base.png
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\UI\UI_Circle_Bevel_Base.png
+      projectPath: Assets\StarterAssets\Mobile\UI\UI_Circle_Bevel_Base.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\UI\UI_Circle_Bevel_Base.png.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\UI\UI_Circle_Bevel_Base.png.meta
+      projectPath: Assets\StarterAssets\Mobile\UI\UI_Circle_Bevel_Base.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\UI\UI_Circle_Faded.png
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\UI\UI_Circle_Faded.png
+      projectPath: Assets\StarterAssets\Mobile\UI\UI_Circle_Faded.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\UI\UI_Circle_Faded.png.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\UI\UI_Circle_Faded.png.meta
+      projectPath: Assets\StarterAssets\Mobile\UI\UI_Circle_Faded.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\UI\UI_Icon_Jump.png
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\UI\UI_Icon_Jump.png
+      projectPath: Assets\StarterAssets\Mobile\UI\UI_Icon_Jump.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\UI\UI_Icon_Jump.png.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\UI\UI_Icon_Jump.png.meta
+      projectPath: Assets\StarterAssets\Mobile\UI\UI_Icon_Jump.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\UI\UI_Icon_Look.png
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\UI\UI_Icon_Look.png
+      projectPath: Assets\StarterAssets\Mobile\UI\UI_Icon_Look.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\UI\UI_Icon_Look.png.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\UI\UI_Icon_Look.png.meta
+      projectPath: Assets\StarterAssets\Mobile\UI\UI_Icon_Look.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\UI\UI_Icon_Move.png
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\UI\UI_Icon_Move.png
+      projectPath: Assets\StarterAssets\Mobile\UI\UI_Icon_Move.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\UI\UI_Icon_Move.png.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\UI\UI_Icon_Move.png.meta
+      projectPath: Assets\StarterAssets\Mobile\UI\UI_Icon_Move.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\UI\UI_Icon_Sprint.png
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\UI\UI_Icon_Sprint.png
+      projectPath: Assets\StarterAssets\Mobile\UI\UI_Icon_Sprint.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Mobile\UI\UI_Icon_Sprint.png.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Mobile\UI\UI_Icon_Sprint.png.meta
+      projectPath: Assets\StarterAssets\Mobile\UI\UI_Icon_Sprint.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Readme.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Readme.asset
+      projectPath: Assets\StarterAssets\Readme.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\Readme.asset.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\Readme.asset.meta
+      projectPath: Assets\StarterAssets\Readme.asset.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\StarterAssets_Documentation_v1.1.pdf
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\StarterAssets_Documentation_v1.1.pdf
+      projectPath: Assets\StarterAssets\StarterAssets_Documentation_v1.1.pdf
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\StarterAssets_Documentation_v1.1.pdf.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\StarterAssets_Documentation_v1.1.pdf.meta
+      projectPath: Assets\StarterAssets\StarterAssets_Documentation_v1.1.pdf.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Animations.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Animations.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Animations.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Animations\Jump--InAir.anim.fbx
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Animations\Jump--InAir.anim.fbx
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Animations\Jump--InAir.anim.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Animations\Jump--InAir.anim.fbx.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Animations\Jump--InAir.anim.fbx.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Animations\Jump--InAir.anim.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Animations\Jump--Jump.anim.fbx
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Animations\Jump--Jump.anim.fbx
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Animations\Jump--Jump.anim.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Animations\Jump--Jump.anim.fbx.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Animations\Jump--Jump.anim.fbx.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Animations\Jump--Jump.anim.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Animations\Locomotion--Run_N.anim.fbx
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Animations\Locomotion--Run_N.anim.fbx
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Animations\Locomotion--Run_N.anim.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Animations\Locomotion--Run_N.anim.fbx.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Animations\Locomotion--Run_N.anim.fbx.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Animations\Locomotion--Run_N.anim.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Animations\Locomotion--Run_N_Land.anim.fbx
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Animations\Locomotion--Run_N_Land.anim.fbx
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Animations\Locomotion--Run_N_Land.anim.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Animations\Locomotion--Run_N_Land.anim.fbx.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Animations\Locomotion--Run_N_Land.anim.fbx.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Animations\Locomotion--Run_N_Land.anim.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Animations\Locomotion--Run_S.anim.fbx
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Animations\Locomotion--Run_S.anim.fbx
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Animations\Locomotion--Run_S.anim.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Animations\Locomotion--Run_S.anim.fbx.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Animations\Locomotion--Run_S.anim.fbx.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Animations\Locomotion--Run_S.anim.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Animations\Locomotion--Walk_N.anim.fbx
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Animations\Locomotion--Walk_N.anim.fbx
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Animations\Locomotion--Walk_N.anim.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Animations\Locomotion--Walk_N.anim.fbx.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Animations\Locomotion--Walk_N.anim.fbx.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Animations\Locomotion--Walk_N.anim.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Animations\Locomotion--Walk_N_Land.anim.fbx
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Animations\Locomotion--Walk_N_Land.anim.fbx
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Animations\Locomotion--Walk_N_Land.anim.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Animations\Locomotion--Walk_N_Land.anim.fbx.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Animations\Locomotion--Walk_N_Land.anim.fbx.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Animations\Locomotion--Walk_N_Land.anim.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Animations\Stand--Idle.anim.fbx
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Animations\Stand--Idle.anim.fbx
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Animations\Stand--Idle.anim.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Animations\Stand--Idle.anim.fbx.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Animations\Stand--Idle.anim.fbx.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Animations\Stand--Idle.anim.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Animations\StarterAssetsThirdPerson.controller
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Animations\StarterAssetsThirdPerson.controller
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Animations\StarterAssetsThirdPerson.controller
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Animations\StarterAssetsThirdPerson.controller.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Animations\StarterAssetsThirdPerson.controller.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Animations\StarterAssetsThirdPerson.controller.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Materials.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Materials.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Materials.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Materials\Built-in_RP.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Materials\Built-in_RP.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Materials\Built-in_RP.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Materials\Built-in_RP\M_ArmatureColor_Arms.mat
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Materials\Built-in_RP\M_ArmatureColor_Arms.mat
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Materials\Built-in_RP\M_ArmatureColor_Arms.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Materials\Built-in_RP\M_ArmatureColor_Arms.mat.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Materials\Built-in_RP\M_ArmatureColor_Arms.mat.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Materials\Built-in_RP\M_ArmatureColor_Arms.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Materials\Built-in_RP\M_ArmatureColor_Body.mat
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Materials\Built-in_RP\M_ArmatureColor_Body.mat
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Materials\Built-in_RP\M_ArmatureColor_Body.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Materials\Built-in_RP\M_ArmatureColor_Body.mat.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Materials\Built-in_RP\M_ArmatureColor_Body.mat.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Materials\Built-in_RP\M_ArmatureColor_Body.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Materials\Built-in_RP\M_ArmatureColor_Legs.mat
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Materials\Built-in_RP\M_ArmatureColor_Legs.mat
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Materials\Built-in_RP\M_ArmatureColor_Legs.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Materials\Built-in_RP\M_ArmatureColor_Legs.mat.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Materials\Built-in_RP\M_ArmatureColor_Legs.mat.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Materials\Built-in_RP\M_ArmatureColor_Legs.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Materials\M_Armature_Arms.mat
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Materials\M_Armature_Arms.mat
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Materials\M_Armature_Arms.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Materials\M_Armature_Arms.mat.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Materials\M_Armature_Arms.mat.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Materials\M_Armature_Arms.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Materials\M_Armature_Body.mat
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Materials\M_Armature_Body.mat
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Materials\M_Armature_Body.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Materials\M_Armature_Body.mat.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Materials\M_Armature_Body.mat.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Materials\M_Armature_Body.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Materials\M_Armature_Legs.mat
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Materials\M_Armature_Legs.mat
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Materials\M_Armature_Legs.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Materials\M_Armature_Legs.mat.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Materials\M_Armature_Legs.mat.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Materials\M_Armature_Legs.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Models.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Models.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Models.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Models\Armature.fbx
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Models\Armature.fbx
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Models\Armature.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Models\Armature.fbx.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Models\Armature.fbx.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Models\Armature.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Sfx.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Sfx.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Sfx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_01.wav
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_01.wav
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_01.wav
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_01.wav.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_01.wav.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_01.wav.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_02.wav
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_02.wav
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_02.wav
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_02.wav.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_02.wav.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_02.wav.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_03.wav
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_03.wav
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_03.wav
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_03.wav.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_03.wav.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_03.wav.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_04.wav
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_04.wav
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_04.wav
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_04.wav.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_04.wav.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_04.wav.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_05.wav
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_05.wav
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_05.wav
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_05.wav.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_05.wav.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_05.wav.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_06.wav
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_06.wav
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_06.wav
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_06.wav.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_06.wav.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_06.wav.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_07.wav
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_07.wav
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_07.wav
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_07.wav.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_07.wav.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_07.wav.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_08.wav
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_08.wav
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_08.wav
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_08.wav.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_08.wav.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_08.wav.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_09.wav
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_09.wav
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_09.wav
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_09.wav.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_09.wav.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_09.wav.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_10.wav
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_10.wav
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_10.wav
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_10.wav.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_10.wav.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Footstep_10.wav.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Land.wav
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Land.wav
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Land.wav
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Land.wav.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Land.wav.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Sfx\Player_Land.wav.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Textures.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Textures.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Textures.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Arms_AlbedoTransparency.tif
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Arms_AlbedoTransparency.tif
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Arms_AlbedoTransparency.tif
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Arms_AlbedoTransparency.tif.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Arms_AlbedoTransparency.tif.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Arms_AlbedoTransparency.tif.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Arms_MetallicSmoothness.tif
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Arms_MetallicSmoothness.tif
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Arms_MetallicSmoothness.tif
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Arms_MetallicSmoothness.tif.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Arms_MetallicSmoothness.tif.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Arms_MetallicSmoothness.tif.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Arms_Normal.tif
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Arms_Normal.tif
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Arms_Normal.tif
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Arms_Normal.tif.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Arms_Normal.tif.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Arms_Normal.tif.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Arms_RGB.tif
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Arms_RGB.tif
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Arms_RGB.tif
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Arms_RGB.tif.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Arms_RGB.tif.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Arms_RGB.tif.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Body_AlbedoTransparency.tif
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Body_AlbedoTransparency.tif
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Body_AlbedoTransparency.tif
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Body_AlbedoTransparency.tif.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Body_AlbedoTransparency.tif.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Body_AlbedoTransparency.tif.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Body_MetallicSmoothness.tif
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Body_MetallicSmoothness.tif
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Body_MetallicSmoothness.tif
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Body_MetallicSmoothness.tif.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Body_MetallicSmoothness.tif.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Body_MetallicSmoothness.tif.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Body_Normal.tif
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Body_Normal.tif
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Body_Normal.tif
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Body_Normal.tif.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Body_Normal.tif.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Body_Normal.tif.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Body_RGB.tif
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Body_RGB.tif
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Body_RGB.tif
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Body_RGB.tif.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Body_RGB.tif.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Body_RGB.tif.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Legs_AlbedoTransparency.tif
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Legs_AlbedoTransparency.tif
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Legs_AlbedoTransparency.tif
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Legs_AlbedoTransparency.tif.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Legs_AlbedoTransparency.tif.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Legs_AlbedoTransparency.tif.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Legs_MetallicSmoothness.tif
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Legs_MetallicSmoothness.tif
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Legs_MetallicSmoothness.tif
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Legs_MetallicSmoothness.tif.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Legs_MetallicSmoothness.tif.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Legs_MetallicSmoothness.tif.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Legs_Normal.tif
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Legs_Normal.tif
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Legs_Normal.tif
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Legs_Normal.tif.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Legs_Normal.tif.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Legs_Normal.tif.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Legs_RGB.tif
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Legs_RGB.tif
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Legs_RGB.tif
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Legs_RGB.tif.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Legs_RGB.tif.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Character\Textures\Armature_Legs_RGB.tif.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Prefabs.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Prefabs.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Prefabs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Prefabs\MainCamera.prefab
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Prefabs\MainCamera.prefab
+      projectPath: Assets\StarterAssets\ThirdPersonController\Prefabs\MainCamera.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Prefabs\MainCamera.prefab.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Prefabs\MainCamera.prefab.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Prefabs\MainCamera.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Prefabs\NestedParentArmature_Unpack.prefab
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Prefabs\NestedParentArmature_Unpack.prefab
+      projectPath: Assets\StarterAssets\ThirdPersonController\Prefabs\NestedParentArmature_Unpack.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Prefabs\NestedParentArmature_Unpack.prefab.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Prefabs\NestedParentArmature_Unpack.prefab.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Prefabs\NestedParentArmature_Unpack.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Prefabs\NestedParentCapsule_Unpack.prefab
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Prefabs\NestedParentCapsule_Unpack.prefab
+      projectPath: Assets\StarterAssets\ThirdPersonController\Prefabs\NestedParentCapsule_Unpack.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Prefabs\NestedParentCapsule_Unpack.prefab.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Prefabs\NestedParentCapsule_Unpack.prefab.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Prefabs\NestedParentCapsule_Unpack.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Prefabs\PlayerArmature.prefab
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Prefabs\PlayerArmature.prefab
+      projectPath: Assets\StarterAssets\ThirdPersonController\Prefabs\PlayerArmature.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Prefabs\PlayerArmature.prefab.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Prefabs\PlayerArmature.prefab.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Prefabs\PlayerArmature.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Prefabs\PlayerCapsule.prefab
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Prefabs\PlayerCapsule.prefab
+      projectPath: Assets\StarterAssets\ThirdPersonController\Prefabs\PlayerCapsule.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Prefabs\PlayerCapsule.prefab.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Prefabs\PlayerCapsule.prefab.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Prefabs\PlayerCapsule.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Prefabs\PlayerFollowCamera.prefab
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Prefabs\PlayerFollowCamera.prefab
+      projectPath: Assets\StarterAssets\ThirdPersonController\Prefabs\PlayerFollowCamera.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Prefabs\PlayerFollowCamera.prefab.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Prefabs\PlayerFollowCamera.prefab.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Prefabs\PlayerFollowCamera.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Scenes.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Scenes.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Scenes.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Scenes\Playground.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Scenes\Playground.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Scenes\Playground.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Scenes\Playground.unity
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Scenes\Playground.unity
+      projectPath: Assets\StarterAssets\ThirdPersonController\Scenes\Playground.unity
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Scenes\Playground.unity.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Scenes\Playground.unity.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Scenes\Playground.unity.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Scenes\Playground\LightingData.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Scenes\Playground\LightingData.asset
+      projectPath: Assets\StarterAssets\ThirdPersonController\Scenes\Playground\LightingData.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Scenes\Playground\LightingData.asset.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Scenes\Playground\LightingData.asset.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Scenes\Playground\LightingData.asset.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Scenes\Playground\ReflectionProbe-0.exr
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Scenes\Playground\ReflectionProbe-0.exr
+      projectPath: Assets\StarterAssets\ThirdPersonController\Scenes\Playground\ReflectionProbe-0.exr
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Scenes\Playground\ReflectionProbe-0.exr.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Scenes\Playground\ReflectionProbe-0.exr.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Scenes\Playground\ReflectionProbe-0.exr.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Scenes\Playground\ReflectionProbe-1.exr
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Scenes\Playground\ReflectionProbe-1.exr
+      projectPath: Assets\StarterAssets\ThirdPersonController\Scenes\Playground\ReflectionProbe-1.exr
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Scenes\Playground\ReflectionProbe-1.exr.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Scenes\Playground\ReflectionProbe-1.exr.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Scenes\Playground\ReflectionProbe-1.exr.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Scenes\Playground\ReflectionProbe-2.exr
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Scenes\Playground\ReflectionProbe-2.exr
+      projectPath: Assets\StarterAssets\ThirdPersonController\Scenes\Playground\ReflectionProbe-2.exr
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Scenes\Playground\ReflectionProbe-2.exr.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Scenes\Playground\ReflectionProbe-2.exr.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Scenes\Playground\ReflectionProbe-2.exr.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Scenes\PlaygroundSettings.lighting
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Scenes\PlaygroundSettings.lighting
+      projectPath: Assets\StarterAssets\ThirdPersonController\Scenes\PlaygroundSettings.lighting
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Scenes\PlaygroundSettings.lighting.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Scenes\PlaygroundSettings.lighting.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Scenes\PlaygroundSettings.lighting.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Scripts.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Scripts.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Scripts.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs
+      projectPath: Assets\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs
+      projectPath: Assets\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs.meta
+      projectPath: Assets\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\TutorialInfo.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\TutorialInfo.meta
+      projectPath: Assets\StarterAssets\TutorialInfo.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\TutorialInfo\Icons.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\TutorialInfo\Icons.meta
+      projectPath: Assets\StarterAssets\TutorialInfo\Icons.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\TutorialInfo\Icons\ReadMeImg.PNG
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\TutorialInfo\Icons\ReadMeImg.PNG
+      projectPath: Assets\StarterAssets\TutorialInfo\Icons\ReadMeImg.PNG
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\StarterAssets\TutorialInfo\Icons\ReadMeImg.PNG.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\StarterAssets\TutorialInfo\Icons\ReadMeImg.PNG.meta
+      projectPath: Assets\StarterAssets\TutorialInfo\Icons\ReadMeImg.PNG.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\TutorialInfo.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\TutorialInfo.meta
+      projectPath: Assets\TutorialInfo.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\TutorialInfo\Icons.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\TutorialInfo\Icons.meta
+      projectPath: Assets\TutorialInfo\Icons.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\TutorialInfo\Icons\URP.png
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\TutorialInfo\Icons\URP.png
+      projectPath: Assets\TutorialInfo\Icons\URP.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\TutorialInfo\Icons\URP.png.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\TutorialInfo\Icons\URP.png.meta
+      projectPath: Assets\TutorialInfo\Icons\URP.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\TutorialInfo\Layout.wlt
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\TutorialInfo\Layout.wlt
+      projectPath: Assets\TutorialInfo\Layout.wlt
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\TutorialInfo\Layout.wlt.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\TutorialInfo\Layout.wlt.meta
+      projectPath: Assets\TutorialInfo\Layout.wlt.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\TutorialInfo\Scripts.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\TutorialInfo\Scripts.meta
+      projectPath: Assets\TutorialInfo\Scripts.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\TutorialInfo\Scripts\Editor.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\TutorialInfo\Scripts\Editor.meta
+      projectPath: Assets\TutorialInfo\Scripts\Editor.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+      projectPath: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+      projectPath: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\TutorialInfo\Scripts\Readme.cs
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\TutorialInfo\Scripts\Readme.cs
+      projectPath: Assets\TutorialInfo\Scripts\Readme.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\TutorialInfo\Scripts\Readme.cs.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\TutorialInfo\Scripts\Readme.cs.meta
+      projectPath: Assets\TutorialInfo\Scripts\Readme.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\UniversalRenderPipelineGlobalSettings.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\UniversalRenderPipelineGlobalSettings.asset
+      projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Assets\UniversalRenderPipelineGlobalSettings.asset.meta
+      projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Packages\manifest.json
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Packages\manifest.json
+      projectPath: Packages\manifest.json
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Packages\packages-lock.json
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\Packages\packages-lock.json
+      projectPath: Packages\packages-lock.json
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\AudioManager.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\ProjectSettings\AudioManager.asset
+      projectPath: ProjectSettings\AudioManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\boot.config
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\ProjectSettings\boot.config
+      projectPath: ProjectSettings\boot.config
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\BurstAotSettings_StandaloneWindows.json
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\ProjectSettings\BurstAotSettings_StandaloneWindows.json
+      projectPath: ProjectSettings\BurstAotSettings_StandaloneWindows.json
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\ClusterInputManager.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\ProjectSettings\ClusterInputManager.asset
+      projectPath: ProjectSettings\ClusterInputManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\CommonBurstAotSettings.json
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\ProjectSettings\CommonBurstAotSettings.json
+      projectPath: ProjectSettings\CommonBurstAotSettings.json
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\DynamicsManager.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\ProjectSettings\DynamicsManager.asset
+      projectPath: ProjectSettings\DynamicsManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\EditorSettings.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\ProjectSettings\EditorSettings.asset
+      projectPath: ProjectSettings\EditorSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\GraphicsSettings.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\ProjectSettings\GraphicsSettings.asset
+      projectPath: ProjectSettings\GraphicsSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\InputManager.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\ProjectSettings\InputManager.asset
+      projectPath: ProjectSettings\InputManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\MemorySettings.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\ProjectSettings\MemorySettings.asset
+      projectPath: ProjectSettings\MemorySettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\NavMeshAreas.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\ProjectSettings\NavMeshAreas.asset
+      projectPath: ProjectSettings\NavMeshAreas.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\PackageManagerSettings.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\ProjectSettings\PackageManagerSettings.asset
+      projectPath: ProjectSettings\PackageManagerSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\Physics2DSettings.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\ProjectSettings\Physics2DSettings.asset
+      projectPath: ProjectSettings\Physics2DSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\PresetManager.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\ProjectSettings\PresetManager.asset
+      projectPath: ProjectSettings\PresetManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\ProjectVersion.txt
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\ProjectSettings\ProjectVersion.txt
+      projectPath: ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\QualitySettings.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\ProjectSettings\QualitySettings.asset
+      projectPath: ProjectSettings\QualitySettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\SceneTemplateSettings.json
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\ProjectSettings\SceneTemplateSettings.json
+      projectPath: ProjectSettings\SceneTemplateSettings.json
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\ShaderGraphSettings.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\ProjectSettings\ShaderGraphSettings.asset
+      projectPath: ProjectSettings\ShaderGraphSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\TagManager.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\TimeManager.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\ProjectSettings\TimeManager.asset
+      projectPath: ProjectSettings\TimeManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\UnityConnectSettings.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\ProjectSettings\UnityConnectSettings.asset
+      projectPath: ProjectSettings\UnityConnectSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\URPProjectSettings.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\ProjectSettings\URPProjectSettings.asset
+      projectPath: ProjectSettings\URPProjectSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\VersionControlSettings.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\ProjectSettings\VersionControlSettings.asset
+      projectPath: ProjectSettings\VersionControlSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\VFXManager.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\ProjectSettings\VFXManager.asset
+      projectPath: ProjectSettings\VFXManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\XRSettings.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\ProjectSettings\XRSettings.asset
+      projectPath: ProjectSettings\XRSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UserSettings\EditorUserSettings.asset
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\UserSettings\EditorUserSettings.asset
+      projectPath: UserSettings\EditorUserSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UserSettings\Layouts\default-2021.dwlt
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\UserSettings\Layouts\default-2021.dwlt
+      projectPath: UserSettings\Layouts\default-2021.dwlt
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UserSettings\Search.settings
+      fullPath: C:\Users\hatte\SyoujinDen_GraphicsTest\UserSettings\Search.settings
+      projectPath: UserSettings\Search.settings
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    currentUsername: 
+    unlockFileMenuContent:
+      m_Text: Release Lock
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+    forceUnlockFileMenuContent:
+      m_Text: Release Lock (forced)
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  hasRemote: 1
+  currentRemoteName: origin
+  currentBranch: master
+  currentRemoteUrl: https://github.com/kantamRobo/SyoujindenGraphicsSamples.git
+  statusAhead: 0
+  statusBehind: 0
+  hasItemsToCommit: 0
+  isTrackingRemoteBranch: 1
+  currentBranchContent:
+    m_Text: master
+    m_Image: {fileID: 0}
+    m_Tooltip: Active branch
+  currentRemoteUrlContent:
+    m_Text: https://github.com/kantamRobo/SyoujindenGraphicsSamples.git
+    m_Image: {fileID: 0}
+    m_Tooltip: Url of the origin remote
+  lastCurrentBranchAndRemoteChangedEvent:
+    updatedTimeString: 2022-10-30T19:17:00.095+09:00
+    cacheType: 1
+  lastTrackingStatusChangedEvent:
+    updatedTimeString: 2022-10-30T19:17:05.756+09:00
+    cacheType: 5
+  lastStatusEntriesChangedEvent:
+    updatedTimeString: 2022-10-30T19:17:05.733+09:00
+    cacheType: 6
+  pullButtonContent:
+    m_Text: Pull
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  pushButtonContent:
+    m_Text: Push
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  refreshButtonContent:
+    m_Text: Refresh
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  fetchButtonContent:
+    m_Text: Fetch
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  repositoryProgressValue: 1
+  repositoryProgressMessage: Listing changed files...
+  appManagerProgressValue: 1
+  appManagerProgressMessage: Initialized
+  connections: []
+  primaryConnectionUsername: 
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -297,10 +3276,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 400
-    y: 446
-    width: 730
-    height: 225
+    x: 0
+    y: 444
+    width: 1041
+    height: 235
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -318,22 +3297,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/StarterAssets/ThirdPersonController/Scenes/Playground
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/StarterAssets/ThirdPersonController/Scenes/Playground
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\hatte\SyoujinDen_GraphicsTest
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 171}
-    m_SelectedIDs: bc6e0000
-    m_LastClickedID: 28348
-    m_ExpandedIDs: 00000000086c0000a46d00008c6e0000906e000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 67}
+    m_SelectedIDs: 7c910000
+    m_LastClickedID: 37244
+    m_ExpandedIDs: 00000000a67200004e7400007e74000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -361,7 +3340,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000086c0000
+    m_ExpandedIDs: 00000000a6720000a8720000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -405,7 +3384,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 3}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -417,7 +3396,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
---- !u!114 &13
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -438,10 +3417,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1131
-    y: 89
-    width: 226
-    height: 582
+    x: 1042
+    y: 73
+    width: 323
+    height: 606
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -449,7 +3428,7 @@ MonoBehaviour:
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: 160
+    m_CachedPref: -160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
@@ -459,7 +3438,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &14
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -480,10 +3459,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 400
-    y: 89
-    width: 180
-    height: 336
+    x: 0
+    y: 73
+    width: 257
+    height: 350
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -491,9 +3470,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 9adbffff
-      m_LastClickedID: -9318
-      m_ExpandedIDs: bedbffffe8dcffff80e8ffff84e8ffff8ce8ffff46eaffffacebffffd4f7ffff96f8ffff14fbffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 6ad7ffff24d9ffff9ee8ffff4ef9ffff52f9ffff5af9ffff14fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -509,7 +3488,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 4}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -517,7 +3496,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &15
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -538,10 +3517,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 581
-    y: 89
-    width: 548
-    height: 336
+    x: 258
+    y: 73
+    width: 782
+    height: 350
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -743,9 +3722,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0.919013, z: 0}
+    m_Target: {x: 0, y: 0.92999995, z: 0}
     speed: 2
-    m_Value: {x: 0, y: 0.919013, z: 0}
+    m_Value: {x: 0, y: 0.92999995, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -792,13 +3771,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Target: {x: -0.18407321, y: 0.41184422, z: -0.08533437, w: -0.8883812}
     speed: 2
-    m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Value: {x: -0.18407306, y: 0.41184387, z: -0.08533429, w: -0.88838047}
   m_Size:
-    m_Target: 2.0141783
+    m_Target: 4.2831464
     speed: 2
-    m_Value: 1.9274433
+    m_Value: 4.2831464
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -823,7 +3802,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &16
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -916,7 +3895,7 @@ MonoBehaviour:
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &17
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}

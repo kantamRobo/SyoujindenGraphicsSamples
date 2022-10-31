@@ -7,10 +7,11 @@ using static UnityEngine.ParticleSystem;
 
     public class Particlesystemformoving : MonoBehaviour
     {
-    public ThirdPersonController player;
+    public ThirdPersonController playertpscontroller;
 
     // Start is called before the first frame update
-
+    [SerializeField]
+    private Transform playertransform;
     [SerializeField]
     private bool isRunning;
     [SerializeField]
@@ -22,42 +23,83 @@ using static UnityEngine.ParticleSystem;
     public Color endcolor;
     [ColorUsage(false, false)]
     public Color runningemmisioncolor;
+    [ColorUsage(false, false)]
+    public Color walkingingemmisioncolor;
     [SerializeField]
     private float running_particlelifetime = 1.23f;
     Color emissioncolor;
+    [SerializeField]
+    private Quaternion particlesystem_rotation;
+    [SerializeField]
+    private readonly float runningspeed = 2.0f;
+    [SerializeField]
+    private readonly float walkingspeed = 1.0f;
+    [SerializeField]
+    private  int aliveParticlesCount;
+    [SerializeField]
+    Particle[] particles;
     void Start()
         {
         particlesystemrenderer = particlesystem.GetComponent<ParticleSystemRenderer>();
 
 
         emissioncolor = particlesystemrenderer.material.color;
-        
+        particles = new ParticleSystem.Particle[particlesystem.main.maxParticles];
 
+        aliveParticlesCount = particlesystem.GetParticles(particles);
     }
 
     // Update is called once per frame
     void Update()
         {
-        var tps_running = (player._input.sprint == true);
+        if (playertpscontroller._input.move.magnitude >0.01f)
+        {
+            //particlesystem.Play();
+            Debug.Log("パーティクルシステムが動いている");
+        }
+        else
+        {
+            
+
+            
+           // particlesystem.Stop();
+            Debug.Log("パーティクルシステムが止まっている");
+        }
+
+        //寿命を迎えてないパーティクルの速度を上げる
+        //注意:パーティクルシステムでこれから出てくるパーティクルの速度を上げるのではなく、
+        //生存しているパーティクルの速度を上げる
+        int aliveParticlesCount = particlesystem.GetParticles(particles);
+        particlesystemrenderer.material.SetColor("_EmissionColor", walkingingemmisioncolor);
+       
+
+
+        var tps_running = (playertpscontroller._input.sprint == true);
         isRunning = tps_running;
         var temp_emissioncolor = Color.Lerp(emissioncolor, endcolor,Time.deltaTime*0.5f);
+        
+        
+        for (int i = 0; i < aliveParticlesCount; i++)
+        {
+            particles[i].velocity = particles[i].velocity.normalized * (particles[i].velocity.magnitude + (Time.deltaTime*walkingspeed));
 
+        }
         if (isRunning)
         {
 
             //パーティクルシステムのレンダラーにアタッチされているマテリアルの
             //光を強める
             
-            var particles = new ParticleSystem.Particle[particlesystem.main.maxParticles];
             //寿命を迎えてないパーティクルの速度を上げる
             //注意:パーティクルシステムでこれから出てくるパーティクルの速度を上げるのではなく、
             //生存しているパーティクルの速度を上げる
-            int aliveParticlesCount = particlesystem.GetParticles(particles);
+            
             particlesystemrenderer.material.SetColor("_EmissionColor", runningemmisioncolor);
-            particlesystem.startLifetime = running_particlelifetime;
+            //particlesystem.startLifetime = running_particlelifetime;
+            
             for (int i=0; i < aliveParticlesCount;i++)
             {
-                particles[i].velocity = particles[i].velocity.normalized * (particles[i].velocity.magnitude + Time.deltaTime);
+                particles[i].velocity = particles[i].velocity.normalized * (particles[i].velocity.magnitude + 10);
                 
             }
 
