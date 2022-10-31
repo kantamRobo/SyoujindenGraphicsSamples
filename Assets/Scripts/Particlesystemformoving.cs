@@ -54,16 +54,22 @@ using static UnityEngine.ParticleSystem;
         {
         if (playertpscontroller._input.move.magnitude >0.01f)
         {
-            //particlesystem.Play();
-            Debug.Log("パーティクルシステムが動いている");
-        }
-        else
-        {
+            if (!particlesystem.isPlaying)
+            {
+                particlesystem.Play();
+                
+            }
             
+        }
+        else 
+        {
+
 
             
-           // particlesystem.Stop();
-            Debug.Log("パーティクルシステムが止まっている");
+
+                particlesystem.Stop();
+            
+            
         }
 
         //寿命を迎えてないパーティクルの速度を上げる
@@ -81,8 +87,12 @@ using static UnityEngine.ParticleSystem;
         
         for (int i = 0; i < aliveParticlesCount; i++)
         {
-            particles[i].velocity = particles[i].velocity.normalized * (particles[i].velocity.magnitude + (Time.deltaTime*walkingspeed));
-
+            particles[i].velocity = particles[i].velocity.normalized * (particles[i].velocity.magnitude + walkingspeed);
+            particles[i].remainingLifetime -= Time.deltaTime;
+            if (particles[i].remainingLifetime > 1.0f)
+            {
+                particlesystemrenderer.material.SetColor("_EmissionColor", Color.Lerp(runningemmisioncolor, endcolor, Time.deltaTime * runningspeed));
+            }
         }
         if (isRunning)
         {
@@ -99,8 +109,11 @@ using static UnityEngine.ParticleSystem;
             
             for (int i=0; i < aliveParticlesCount;i++)
             {
-                particles[i].velocity = particles[i].velocity.normalized * (particles[i].velocity.magnitude + 10);
-                
+                particles[i].velocity = particles[i].velocity.normalized * (particles[i].velocity.magnitude);
+                if (particles[i].remainingLifetime >0.5f)
+                {
+                    particlesystemrenderer.material.SetColor("_EmissionColor", Color.Lerp(runningemmisioncolor,endcolor,Time.deltaTime*runningspeed));
+                }
             }
 
             particlesystem.SetParticles(particles, aliveParticlesCount);
