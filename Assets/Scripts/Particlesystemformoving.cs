@@ -37,7 +37,11 @@ using static UnityEngine.ParticleSystem;
     [SerializeField]
     private  int aliveParticlesCount;
     [SerializeField]
-    Particle[] particles;
+    private Particle[] particles;
+    [SerializeField]
+    private Vector3 previousPlayerposition;
+    [SerializeField]
+    private Vector3 ParticleSystemOffsetposition;
     void Start()
         {
         particlesystemrenderer = particlesystem.GetComponent<ParticleSystemRenderer>();
@@ -49,9 +53,24 @@ using static UnityEngine.ParticleSystem;
         aliveParticlesCount = particlesystem.GetParticles(particles);
     }
 
+
+    Vector3 GetPlayerPosition()
+    {
+       //メモ化
+        if (previousPlayerposition != playertpscontroller.transform.position)
+        {
+            return previousPlayerposition;
+        }
+
+        return playertpscontroller.transform.position;
+    }
+
     // Update is called once per frame
     void Update()
         {
+        //メモ化を使い、前フレームのプレイヤーの位置を取得する。
+        previousPlayerposition= GetPlayerPosition();
+
         if (playertpscontroller._input.move.magnitude >0.01f)
         {
             if (!particlesystem.isPlaying)
@@ -64,13 +83,15 @@ using static UnityEngine.ParticleSystem;
         else 
         {
 
-
-            
-
                 particlesystem.Stop();
             
             
         }
+
+        Vector3 particlecurrentpos = previousPlayerposition - playertpscontroller.transform.position;
+        //パーティクルシステムの位置を決定する。前フレームと現フレームの差分で
+        //動いたときに「ずれ」が生じるようになる。そこに、さらに「アソビ」を入れる。
+        particlesystem.transform.position = particlecurrentpos + ParticleSystemOffsetposition;
 
         //寿命を迎えてないパーティクルの速度を上げる
         //注意:パーティクルシステムでこれから出てくるパーティクルの速度を上げるのではなく、
