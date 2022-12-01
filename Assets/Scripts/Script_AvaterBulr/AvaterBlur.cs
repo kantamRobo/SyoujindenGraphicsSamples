@@ -45,7 +45,7 @@ public class AvaterBlur : MonoBehaviour
     }
     Vector3 GetLocalPosition(Vector3 parent,int instanceCount)
     {
-        Vector3 temp;
+        Vector3 temp=new Vector3(0,0,0);
 
         for (int i = 0; i < instanceCount; i++)
         {
