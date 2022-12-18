@@ -31,6 +31,7 @@ public class FireflowerEffect : MonoBehaviour
        
     void Start()
     {
+        //コンパイルできないエラーが出たら、まずパーティクルシステムとアニメーションカーブがオブジェクトについてるかどうか確認する
         particlesystemrenderer = fireflowersystem.GetComponent<ParticleSystemRenderer>();
         particles = new ParticleSystem.Particle[fireflowersystem.main.maxParticles];
 
@@ -42,17 +43,31 @@ public class FireflowerEffect : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //例えば、このスクリプトがアタッチされたオブジェクトがダメージを受けたら
+        //パーティクルシステムが作動する
         if (FireflowerhasbeenTriggerd)
         {
-            for (int i = 0; i < steps; i++)
+            if (!fireflowersystem.isPlaying)
             {
-                particles[i].position = Vector3.Lerp(
-                    fireflowersystem.transform.position,
-                    new Vector3(Mathf.Cos(baseangle * i) * radius,
-                    curve_particle_MoveY.Evaluate(Time.deltaTime),
-                    Mathf.Sin(baseangle * i) * radius), lerpspeed);
-
+                fireflowersystem.Play();
+                for (int i = 0; i < steps; i++)
+                {
+                    particles[i].position = Vector3.Lerp(
+                        fireflowersystem.transform.position,
+                        new Vector3(Mathf.Cos(baseangle * i) * radius,
+                        curve_particle_MoveY.Evaluate(Time.deltaTime),
+                        Mathf.Sin(baseangle * i) * radius), lerpspeed);
+                    Debug.Log("正常動作");
+                }
             }
+           
+        }
+        else
+        {
+
+            fireflowersystem.Stop();
+
+
         }
     }
 }
