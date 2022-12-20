@@ -138,6 +138,7 @@ GameObject:
   - component: {fileID: 254207531}
   - component: {fileID: 254207530}
   - component: {fileID: 254207529}
+  - component: {fileID: 254207533}
   m_Layer: 0
   m_Name: running_particlesystem
   m_TagString: Untagged
@@ -249,9 +250,9 @@ ParticleSystem:
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
   emitterVelocityMode: 1
-  looping: 1
+  looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
@@ -317,7 +318,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.86
+      scalar: 0.5
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -370,7 +371,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 10
+      scalar: 5.88
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -802,7 +803,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 1000
+    maxNumParticles: 338
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
     rotation3D: 0
@@ -863,10 +864,10 @@ ParticleSystem:
     serializedVersion: 6
     enabled: 1
     type: 4
-    angle: 40.83
+    angle: 44.55
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
-    radiusThickness: 0.41
+    radiusThickness: 0.61
     donutRadius: 0.2
     m_Position: {x: 0, y: 0, z: -0.09}
     m_Rotation: {x: -83.93, y: 0, z: 0}
@@ -949,7 +950,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 0.45
+      value: 0.24
       mode: 0
       spread: 0
       speed:
@@ -1006,7 +1007,7 @@ ParticleSystem:
           m_PostInfinity: 2
           m_RotationOrder: 4
     arc:
-      value: 360
+      value: 54.8
       mode: 0
       spread: 0
       speed:
@@ -5014,6 +5015,22 @@ Transform:
   m_Father: {fileID: 1782049866}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: -4.236, y: 86.833, z: 0.209}
+--- !u!114 &254207533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254207528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e2c35ef8d531684d8f65ddafa1e2e68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerdDamage: 0
+  fireflowersystem: {fileID: 254207531}
+  time: 0
+  defaulttime: 0.86
 --- !u!1 &542508511
 GameObject:
   m_ObjectHideFlags: 0
